@@ -28,6 +28,19 @@ Copyright 2013, Josh Cope
       text-align: justify;
 	}
 		
+      body {
+         font-family: 'Papyrus', Papyrus, Arial, sans-serif;
+         margin: 0;
+         background-image: url(IMG/ricepaper2.png);
+         background color: : .5;
+            
+      }
+
+      p{
+         font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+         
+
+      }
 
 
 
