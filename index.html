@@ -9,10 +9,10 @@
 
 	<meta name="viewport" content="width=device-width">
 
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/grid.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/base.css">
+	<link rel="stylesheet" href="./css/grid.css">
+	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
@@ -26,16 +26,22 @@
     text-align: center;
     text-decoration: none;
 }
+p{
+         font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+         
 
+      }
 
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
+    position: relative;
     float: right;
-    width: 180px;
+    width: 300px;
+    display: block;
 }
 
-div.gallery:hover {
+div.gallery: hover {
     border: 2px solid black;
    	transition: all .2s ease-in-out;
    	transform: scale(1.5); 
@@ -47,7 +53,7 @@ div.gallery img {
 }
 
 div.desc {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 /* Set a specific color for each brand */
@@ -71,6 +77,11 @@ div.desc {
 			background color: : .5;
 				
 		}
+		p{
+         font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+         
+
+      }
 	
 		}
 		ul.menu{
@@ -114,12 +125,17 @@ img.background {
 #logo{
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: relative;
+  border-style: solid;
+  border-width:  2px ;
+  border color: orange;
+  margin-top: 200px
+  margin-bottom: 20px;
   
 }		
 		
 logo.img {
-	display: block;
+	 display: block;
     margin-left: auto;
   	margin-right: auto;
 }
@@ -131,7 +147,7 @@ logo.img {
 }
 
 #info {
-	position: absolute;
+	position: relative;
 }
 div.text{
 	text-overflow: ellipsis;
@@ -153,31 +169,47 @@ div.text{
 <nav>
     	<ul class="menu">
     		<li><a class="active" href="./index.html">Home</a></li>
-    		<li><a class="active" href = "../Contact/index.html">Contact</a></li>
-    		<li><a class="active" href="../About/index.html">About</a></li>
+    		<li><a class="active" href = "./Contact/index.html">Contact</a></li>
+    		<li><a class="active" href="./About/index.html">About</a></li>
     	</ul>
     </nav>
     <img src="IMG/Treebackground.png" img class="background" alt="tree" id = tree style="float: right; width:125%;height:auto;">
 
 
-   <div class="grid_12">
-		<div id="logo">
-	<div class="container clearfix content">
-	<div class="text ">
+   <div class="grid_12" >
+		<div id="logo" >
+<div class="container clearfix content">
 	<center><img src="IMG/FinalSolanaOnePage.png" img class="logo" alt="logo"></center>
-
-	<h2><center><strong>Solana</strong> explores the changing landscape of what it means to be a family. </center></h2>
-
-<div class="p">
-	<h4><center>Twenty-five year old, adopted Asian-American, Chloe Ellsworth, is still living at home with her family on their farm in Indiana. When an unexpected visitor arrives, everything changes and she is thrown into an unexpected fairy-tale journey full of surprises, twists and turns resulting in a profound understanding about herself and the unresolved feelings she has harbored about her adoption.</center>
-	</h4>
-	
-		</div>
-	
-	<h2><center>Recently feautured in <a href="http://www.playbill.com/article/derek-klena-jon-jon-briones-ann-harada-and-more-set-for-reading-of-new-musical-solana"> <strong>Playbill</strong></a></center>
-	</h2>
 	</div>
-	
+	</div>
+</div>
+</div>
+</div>
+
+
+  <div class="grid_12">
+  <div class="containertext">
+	<h2><center><strong>Solana</strong> explores the changing landscape of what it means to be a family. </center></h2>
+  <div class="p">
+	<h4><center>Twenty-five year old, adopted Asian-American, Chloe Ellsworth, is still living at home with her family on their farm in Indiana. When an unexpected visitor arrives, everything changes and she is thrown into an unexpected fairy-tale journey full of surprises, twists and turns resulting in a profound understanding about herself and the unresolved feelings she has harbored about her adoption.</center>
+	   </h4>
+     </div>
+     </div>
+  </div>
+  </div>
+	</div>
+	</div>
+	</div>
+
+		
+		
+	<div class="p">
+	<h1><center>Recently feautured in <a href="http://www.playbill.com/article/derek-klena-jon-jon-briones-ann-harada-and-more-set-for-reading-of-new-musical-solana"> <strong>Playbill</strong></a></center>
+    </h1>
+  </div>
+
+	</div>
+	<div class="grid_12">
 <div class="containerbottom clearfix">
 <div class="gallery ">
   <a target="_blank" href="IMG/Cast.jpg">
@@ -198,6 +230,7 @@ div.text{
     <img src="IMG/rehersal-day-1.jpg" alt="NYC" width="300" height="200">
   </a>
   <div class="desc">A day of rehearsal</div>
+</div>
 </div>
 
 <div class=" containerbottom" style="float: center;">
