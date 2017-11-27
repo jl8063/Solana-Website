@@ -2,59 +2,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Solana</title>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="A new musical about what it means to be a family" content="">
-	<meta name="Heitzman&Reid" content="">
+  
 
-	<meta name="viewport" content="width=device-width">
+</script>
 
-	<link rel="stylesheet" href="./CSS/normalize.css">
-	<link rel="stylesheet" href="./CSS/base.css">
-	<link rel="stylesheet" href="./CSS/grid.css">
-	<link rel="stylesheet" href="./CSS/style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Solana</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="A new musical about what it means to be a family" content="">
+  <meta name="Heitzman&Reid" content="">
 
-	<style type="text/css">
-		
-	</style>
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="./CSS/normalize.css">
+  <link rel="stylesheet" href="./CSS/base.css">
+  <link rel="stylesheet" href="./CSS/grid.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </style>
 </head>
 <body >
 <nav>
-    	<ul class="menu">
-    		<li><a class="active" href="./index.html">Home</a></li>
-    		<li><a class="active" href = "./Contact/index.html">Contact</a></li>
-    		<li><a class="active" href="./About/index.html">About</a></li>
-    	</ul>
+      <ul class="menu">
+        <li><a class="active" href="./index.html">Home</a></li>
+        <li><a class="active" href = "./Contact/index.html">Contact</a></li>
+        <li><a class="active" href="./About/index.html">About</a></li>
+      </ul>
     </nav>
     
-    <img src="IMG/Treebackground.png" img class="background" alt="tree" id = tree style="float: right; width:125%;height:auto;">
+    <img src="IMG/Treebackground.png" img class="fadeOnLoad"  alt="tree" id = tree style="float: right; width:125%;height:auto;"
+    >
+
+<div class="container">
+  <img src="IMG/Pear.png" id="myImage">
+  </div>
+
+
 
 
    <div class="container">
-    <center><img src="./IMG/FinalSolanaOnePage.png" img class="logo" alt="logo"></center>
+    <center><img src="./IMG/FinalSolanaOnePage.png" img class="logo" alt="logo" id = "img1"></center>
     <h2><center><strong>Solana</strong> explores the changing landscape of what it means to be a family. </center></h2>
+    <img src="IMG/Pear.png" id = "myImage" alt style="display: none;">
 
       </div>
 
 
   <div class="containerAbout">
-	
-	<h4><center>Twenty-five year old, adopted Asian-American, Chloe Ellsworth, is still living at home with her family on their farm in Indiana. When an unexpected visitor arrives, everything changes and she is thrown into an unexpected fairy-tale journey full of surprises, twists and turns resulting in a profound understanding about herself and the unresolved feelings she has harbored about her adoption.</center>
-	   </h4>
+  
+  <h4><center>Twenty-five year old, adopted Asian-American, Chloe Ellsworth, is still living at home with her family on their farm in Indiana. When an unexpected visitor arrives, everything changes and she is thrown into an unexpected fairy-tale journey full of surprises, twists and turns resulting in a profound understanding about herself and the unresolved feelings she has harbored about her adoption.</center>
+     </h4>
      </div>
  
   
 
-		
-		
-	<div class="container">
-	 <h1><center>Recently featured in <a href="http://www.playbill.com/article/derek-klena-jon-jon-briones-ann-harada-and-more-set-for-reading-of-new-musical-solana"> <strong>Playbill</strong></a></center>
+    
+    
+  <div class="container">
+   <h1><center>Recently featured in <a href="http://www.playbill.com/article/derek-klena-jon-jon-briones-ann-harada-and-more-set-for-reading-of-new-musical-solana"> <strong>Playbill</strong></a></center>
     </h1>
   </div>
 
-	</div>
+  </div>
 
 <div class="containerIMG">
 <div class="gallery ">
@@ -89,6 +99,26 @@
 <a href="IMG/facebook-icon.png" class="fa fa-facebook"></a>
 <a href="#" class="fa fa-twitter"></a>
 </body>
+<script type="text/javascript">
+  
+      var img1 = document.getElementById("img1"),
+          img2 = document.getElementById("img2");
+
+      img1.onmouseover = function(){
+        img2.style.display = "block";
+      }
+
+      img1.onmouseout = function(){
+        img2.style.display = "none";
+      }
+    
+</script>
+<script type="text/javascript">
+jQuery(function(){
+
+   $("#myImage").fadeIn("slow");
+
+});
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
 

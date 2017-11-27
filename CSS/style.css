@@ -6,7 +6,25 @@ Copyright 2013, Josh Cope
 /* =============================================================================
    Site Styles
    ========================================================================== */
-	.container{
+	
+
+  #img2{
+    position: fixed;
+    right:0;
+    bottom:0;
+    display: none; }
+
+  #imageOne {
+  background: ../IMG/Pear.png;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  float: left;
+  opacity: 0;
+}
+
+  .container{
 		background-color: rgba(246,172,0,.10);
       margin-top: 40px;
       margin-bottom: 20px;
